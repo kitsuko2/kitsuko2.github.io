@@ -1,0 +1,63 @@
+header {
+  color: #222;
+  position: relative;
+display: flex;
+font-family: Abril Fatface;
+  margin: 0px;
+  
+
+}
+
+h1 { 
+font-size:30px;
+margin: 20px;}
+
+img{
+  
+  height: 400px;
+  width: 100%;}
+
+.headquote {
+  margin: 0px;
+ position: absolute;
+ bottom: 20px;
+  right: 300px;
+}
+
+.bigfont { 
+  
+  font-size:66px;
+  margin: 0px; 
+  
+}
+
+main {
+  font-family: Josefin Sans; 
+  color: #222;
+ display: block;
+ margin-left:220px;
+}
+
+.bigquote::before {
+  content: '“';
+   font-size: 150px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-family: 'Abril Fatface', cursive;
+  padding: 0px;
+  
+}
+.bigquote {
+font-family: 'Abril fatface', cursive;
+  font-size: 40px;
+  color: white;
+  background: #222;
+  width: 700px;
+  height: 110px; 
+  display: flex;
+  margin: 0px 0px 0px -10px;
+  align-content:center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 40px 40px 40px 50px;}

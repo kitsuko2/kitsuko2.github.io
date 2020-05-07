@@ -1,0 +1,43 @@
+background {
+
+    background:black; 
+    color: white;
+    
+    
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#blue {
+    background: blue; 
+    height: 50px;
+    width: 100px;
+    padding: 15px; 
+    margin:10px;
+}
+
+#pink {
+    background: pink; 
+    height: 200px;
+    width: 100px;
+    padding: 35px;
+    margin: 15px;
+}
+
+#green {
+    background: greenyellow; 
+    height: 50px;
+    width: 100px;
+    padding:14px;
+    margin: 11px;
+    
+}
+
+button{
+    width: 70px;
+    height: 40px;
+}
